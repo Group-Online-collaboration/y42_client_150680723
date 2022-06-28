@@ -1,6 +1,6 @@
 {
   "request_id": "220628121829_bf1c1c49-2cf0-542c-b954-602d32821f3c",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "380361c7-7560-473e-b4ce-041732f25bc7",
     "source_settings": {
@@ -34,5 +34,103 @@
     }
   },
   "created_at": "2022-06-28T12:18:29.594638+00:00",
-  "_signature": "Iq23aBXdKn5/k96nIw5U3z+7C7wm0hy6GBJO2olcZQyIQTuIYGz/AXysYKkgxv+1TREAzeEQvVE2tlK7tDP/DQ=="
+  "finished_at": "2022-06-28T12:19:08.702817+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-28T12:19:08.702525+00:00",
+    "row_count": 1028,
+    "current_import_row_count": 1028,
+    "size_in_bytes": 19456,
+    "external_id": "01a53fc2-0101-4e10-0001-2c9200368032",
+    "columns": [
+      {
+        "field_name": "ga_sessionduration",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "ga_channelgrouping",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ga_transactions",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "ga_date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "ga_campaign",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ga_adcontent",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ga_adgroup",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "client_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ga_newusers",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "ga_users",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "ga_transactionrevenue",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "loaded_at",
+        "data_type": "TIMESTAMP_LTZ",
+        "external_data_type": "TIMESTAMP_LTZ"
+      },
+      {
+        "field_name": "ga_pageviews",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "ga_countryisocode",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ga_sourcemedium",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ga_bounces",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "ga_sessions",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      }
+    ],
+    "table_name": "220628121829_bf1c1c49-2cf0-542c-b954-602d32821f3c",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220628121829_bf1c1c49-2cf0-542c-b954-602d32821f3c"
+  },
+  "_signature": "EJ5MjXFcf0mL3unjFbvbDK6eayi7MjC/aSWPpVxdMdYJ3BHq2PWpCulirWmdkhK3TzTM0Dj39pmEHzQFH2G1BA=="
 }
