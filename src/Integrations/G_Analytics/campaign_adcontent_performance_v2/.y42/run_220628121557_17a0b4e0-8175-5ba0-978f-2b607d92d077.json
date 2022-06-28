@@ -56,5 +56,17 @@
     }
   },
   "created_at": "2022-06-28T12:15:57.712272+00:00",
-  "_signature": "8NS+hPiWrzdt02D/mlcCY25RVtV72NxBqo0nCh11yoSWxPJB9CYZcdTcNgK+Fz7jalSYDOrcRZtLE34sxqgkDQ=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-06-28T12:17:46.474742+00:00",
+    "external_state": {
+      "campaign_adcontent_performance_v2": "2022-06-26",
+      "schema_hash": "d56f29a82eaf37ac11859ba9e79d6daf"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a53fc1-0101-4e10-0001-2c9200368022",
+    "storage_file": "azure://y42snowflake.blob.core.windows.net/y42-container/userUploads/v2/tap-google-analytics/67cdbe0a-b411-4ce2-a8b9-c78a320b8fba",
+    "partial": false
+  },
+  "_signature": "wwovWLxHGM3jNTi81/vsufoPJUVkM50jJMrBn8NnyxNSmfnD+kFVa+HywkS8hn4QOPbK/yBmhrwm3jVDNRQ8BQ=="
 }
