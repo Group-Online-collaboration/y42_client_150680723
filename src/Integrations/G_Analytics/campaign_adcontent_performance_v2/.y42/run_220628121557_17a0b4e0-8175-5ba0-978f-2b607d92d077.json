@@ -1,0 +1,156 @@
+{
+  "request_id": "220628121557_17a0b4e0-8175-5ba0-978f-2b607d92d077",
+  "status": "ready",
+  "request": {
+    "source_credentials": "0ce4ecac-3deb-432a-9432-a2f9bb9d42be",
+    "target_credentials": "380361c7-7560-473e-b4ce-041732f25bc7",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/google-analytics/0.0.0/source.json",
+      "start_date": "2022-01-01T00:00:00Z",
+      "parent_id": "150680723"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/google-analytics/0.0.0/table",
+      "columns": [
+        "ga_date",
+        "ga_channelGrouping",
+        "ga_sourceMedium",
+        "ga_campaign",
+        "ga_adContent",
+        "ga_adGroup",
+        "ga_countryIsoCode",
+        "ga_users",
+        "ga_newUsers",
+        "ga_sessions",
+        "ga_sessionDuration",
+        "ga_pageviews",
+        "ga_bounces",
+        "ga_transactions",
+        "ga_transactionRevenue",
+        "report_start_date",
+        "report_end_date"
+      ],
+      "import": "campaign_adcontent_performance_v2"
+    },
+    "created_at": "2022-06-28T12:15:57.712272+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/G_Analytics/campaign_adcontent_performance_v2/",
+        "id": "5:e9aef37e-bb6f-4e21-ba27-2cee728ab72d",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_150680723",
+        "commit_sha": "2b5a0fa751982056f0e84a391018c08adace9288"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "32",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-28T12:15:57.712272+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-06-28T12:17:46.474742+00:00",
+    "external_state": {
+      "campaign_adcontent_performance_v2": "2022-06-26",
+      "schema_hash": "d56f29a82eaf37ac11859ba9e79d6daf"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a53fc1-0101-4e10-0001-2c9200368022",
+    "storage_file": "azure://y42snowflake.blob.core.windows.net/y42-container/userUploads/v2/tap-google-analytics/67cdbe0a-b411-4ce2-a8b9-c78a320b8fba",
+    "partial": false,
+    "import_finished_at": "2022-06-28T12:18:03.945102+00:00",
+    "row_count": 1028,
+    "current_import_row_count": 1028,
+    "size_in_bytes": 18944,
+    "columns": [
+      {
+        "field_name": "ga_adgroup",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ga_adcontent",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ga_sessions",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "ga_transactionrevenue",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ga_channelgrouping",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ga_users",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "ga_date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "ga_campaign",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ga_sourcemedium",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ga_bounces",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "ga_sessionduration",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "ga_transactions",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "ga_newusers",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "ga_pageviews",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "ga_countryisocode",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220628121557_17a0b4e0-8175-5ba0-978f-2b607d92d077",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220628121557_17a0b4e0-8175-5ba0-978f-2b607d92d077"
+  },
+  "finished_at": "2022-06-28T12:18:03.945516+00:00",
+  "_signature": "dI1ub4JW6z0y/xL4fAgJSTb8kYOTBdF5cPsIUOX45OcGVH2trEqlmNL3U/Q8Na+sJbdVbkheQcr1m3mWQchQDA=="
+}
