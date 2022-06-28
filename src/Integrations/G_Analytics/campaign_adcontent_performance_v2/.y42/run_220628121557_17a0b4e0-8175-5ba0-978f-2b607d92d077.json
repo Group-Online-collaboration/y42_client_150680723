@@ -1,0 +1,60 @@
+{
+  "request_id": "220628121557_17a0b4e0-8175-5ba0-978f-2b607d92d077",
+  "status": "pending",
+  "request": {
+    "source_credentials": "0ce4ecac-3deb-432a-9432-a2f9bb9d42be",
+    "target_credentials": "380361c7-7560-473e-b4ce-041732f25bc7",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/google-analytics/0.0.0/source.json",
+      "start_date": "2022-01-01T00:00:00Z",
+      "parent_id": "150680723"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/google-analytics/0.0.0/table",
+      "columns": [
+        "ga_date",
+        "ga_channelGrouping",
+        "ga_sourceMedium",
+        "ga_campaign",
+        "ga_adContent",
+        "ga_adGroup",
+        "ga_countryIsoCode",
+        "ga_users",
+        "ga_newUsers",
+        "ga_sessions",
+        "ga_sessionDuration",
+        "ga_pageviews",
+        "ga_bounces",
+        "ga_transactions",
+        "ga_transactionRevenue",
+        "report_start_date",
+        "report_end_date"
+      ],
+      "import": "campaign_adcontent_performance_v2"
+    },
+    "created_at": "2022-06-28T12:15:57.712272+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/G_Analytics/campaign_adcontent_performance_v2/",
+        "id": "5:e9aef37e-bb6f-4e21-ba27-2cee728ab72d",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_150680723",
+        "commit_sha": "2b5a0fa751982056f0e84a391018c08adace9288"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "32",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-28T12:15:57.712272+00:00",
+  "_signature": "8NS+hPiWrzdt02D/mlcCY25RVtV72NxBqo0nCh11yoSWxPJB9CYZcdTcNgK+Fz7jalSYDOrcRZtLE34sxqgkDQ=="
+}
